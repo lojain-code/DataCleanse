@@ -1,0 +1,10 @@
+file_or_sheet,column,meaning_en,meaning_ar,unit_or_type
+records_raw,record_id,Record code,رمز السجل,text
+records_raw,full_name,Synthetic label (no real person),اسم افتراضي (لا يمثل شخصًا حقيقيًا),text
+records_raw,age,Age (contains planted errors),العمر (يحتوي أخطاء مزروعة),years
+records_raw,city,City (mixed case and spaces on purpose),المدينة (فيها اختلاف حروف ومسافات مقصودة),text
+records_raw,registration_date,Date in mixed formats on purpose,التاريخ بصيغ مختلفة عمدًا,YYYY-MM-DD or DD/MM/YYYY
+records_raw,score,Exam score (contains planted errors),درجة الاختبار,0 to 100
+records_raw,email,Synthetic email (one is invalid on purpose),بريد افتراضي (واحد غير صحيح عمدًا),text
+records_reference_clean,(all columns),Correct version used by the tests,النسخة الصحيحة المستخدمة في الاختبار,same as records_raw
+rules,column / rule / value_1 / value_2,"Validation rules: range, allowed list, contains, unique",قواعد التحقق,text

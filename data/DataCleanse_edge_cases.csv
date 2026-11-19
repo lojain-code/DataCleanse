@@ -1,0 +1,4 @@
+record_id,full_name,age,city,registration_date,score,email
+TX01,Trainee X01,,,,,
+TX02,Trainee X02,200.0,Riyadh,31/02/2026,50.0,a@b
+TX03,Trainee X03,25.0,RIYADH,2026-01-05,100.0,x@example.com

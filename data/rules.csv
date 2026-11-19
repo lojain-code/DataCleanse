@@ -1,0 +1,6 @@
+column,rule,value_1,value_2
+age,range,15,70
+score,range,0,100
+city,allowed,Riyadh|Jeddah|Makkah|Dammam|Abha|Majmaah,
+email,contains,@,
+record_id,unique,,
