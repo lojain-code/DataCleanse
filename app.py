@@ -8,7 +8,12 @@ from core.charts import plot_city_counts, plot_age_hist, plot_age_vs_score, plot
 from core.cleaning import clean_data
 from core.analysis import quality_report
 
-GROUP = "Write your group members' names here"      # <- edit this line
+
+GROUP = """Lojain almayouf
+Renad almutairi
+Rahaf alazmi
+Hessa alharbi"""
+    # <- edit this line
 
 st.set_page_config(page_title="DataCleanse", layout="wide")
 st.title("DataCleanse - Data Quality Auditor")
